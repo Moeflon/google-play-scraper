@@ -26,7 +26,4 @@ def app(dom):
 
         result[k] = content
 
-    result["appId"] = app_id
-    result["url"] = url
-
     return result
